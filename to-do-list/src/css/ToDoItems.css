@@ -1,0 +1,32 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-content {
+  display: flex;
+  align-items: center;
+}
+
+.task-text {
+  margin-left: 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  background-color: #1b0bc6;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b2b2d2;
+}

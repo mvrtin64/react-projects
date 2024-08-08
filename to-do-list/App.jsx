@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './css/App.css'
-import Input from './ToDoInput'
-import List from './ToDoList'
-import ActionButtons from './ActionButtons'
-import FilterButtons from './FilterButtons'
+import Input from './src/ToDoInput'
+import List from './src/ToDoList'
+import ActionButtons from './src/ActionButtons'
+import FilterButtons from './src/FilterButtons'
 
 function App() {
   const getInitialTasks = () => {
